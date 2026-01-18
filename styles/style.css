@@ -178,3 +178,27 @@ nav ul a {
   border-radius: 50%;
   padding: 14px;
 }
+/* Solution design */
+#solution-container {
+  padding: 120px;
+  display: flex;
+}
+.brain-img-txt {
+  /* padding-top: 102px; */
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+.uppertext {
+  text-transform: uppercase;
+}
+#brain-img-txt-heading {
+  font-size: 48px;
+  text-align: left;
+}
+.checklist {
+  display: flex;
+  gap: 10px;
+}
