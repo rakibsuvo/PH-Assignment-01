@@ -4,21 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- Add google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
+  <!-- WHole page using same font, so font-inter class added to the body -->
+  <body class="font-inter">
     <header>
       <nav>
-        <div>
-          <h2>Image</h2>
+        <div class="nav-logo">
+          <img src="assets/logo-navbar.png" />
         </div>
         <ul>
-          <li>feature</li>
-          <li>How it works</li>
-          <li>Why it's different</li>
+          <li><a href="">Feature</a></li>
+          <li><a href="">How it works</a></li>
+          <li><a href="">Why it's different</a></li>
         </ul>
-        <div>
-          <button>Get early access</button>
-        </div>
+        <button class="nav-btn">Get early access</button>
       </nav>
     </header>
   </body>
