@@ -123,3 +123,58 @@ nav ul a {
   border-radius: 4px;
   border-color: white;
 }
+/* Notes design */
+#notes {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+#notes-pg {
+  color: #627382;
+}
+/* Problem design */
+#problem {
+  width: 1600px;
+  height: 300px;
+  padding-top: 44px;
+  display: flex;
+  justify-content: center;
+}
+.problem-card-container {
+  width: 1360px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.problem-card {
+  width: 322px;
+  height: 300px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.06);
+  background: rgba(255, 255, 255, 1);
+}
+.card-heading {
+  text-align: center;
+}
+.card-pg {
+  text-align: center;
+  color: #627382;
+}
+.img-icon {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(249, 85, 85, 1);
+  border-radius: 50%;
+  padding: 14px;
+}
