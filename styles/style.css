@@ -46,3 +46,80 @@ nav ul a {
   text-decoration: none;
   color: black;
 }
+/* Banner */
+#banner {
+  width: 1600px;
+  height: 674px;
+  background-image: url(/assets/hero-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.banner-content {
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+.access-btn {
+  width: 229px;
+  height: 35px;
+  padding-left: 12px;
+  padding-right: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1000px;
+  border-color: transparent;
+  gap: 6px;
+}
+.access-img {
+  padding-right: 6px;
+}
+.headline {
+  width: 770px;
+  height: 168px;
+  font-size: 72px;
+  font-style: bold;
+  color: white;
+}
+.color-green {
+  color: #30b868;
+}
+.banner-pg {
+  color: white;
+  font-size: 18px;
+  line-height: 24px;
+}
+.banner-btn {
+  width: 465px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.btn-strt {
+  width: 251px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #30b868;
+  color: white;
+  border-radius: 4px;
+  border-color: transparent;
+}
+.btn-see {
+  width: 251px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: transparent;
+  color: white;
+  border-radius: 4px;
+  border-color: white;
+}
